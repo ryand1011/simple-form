@@ -29,7 +29,7 @@ yarn build
 - email is fully validated for format
 - only account usernames that will pass validation are `twitter` and `twitch` respectively
 - uppon submit - data is logged to the browser console ONLY
-- submit page now complete
+- submit page not complete
 
 ## TODOs
 
