@@ -31,8 +31,8 @@ const doesTwitterAccountExistAPICall = async (twitterUsername: string): Promise<
     // console.log(JSON.stringify(data, null, 4));
     // console.log('response status is: ', status);
 
-    // placeholder
-    if(twitterUsername === "abcd") {
+    // placeholder - use response validation and custom twitter logic
+    if(twitterUsername === "twitter") {
         // then the account DOES exist
         // console.log("twitter account DOES exist");
         return new Promise(resolve => resolve(true));

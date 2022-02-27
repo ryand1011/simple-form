@@ -1,9 +1,21 @@
 // Copyright 2022 Ryan Diaz - All rights reserved
 // styles n' stuff
 
-.form {
+.formContainer {
   padding: 15px;
-  border: 2px red solid;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  margin: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  //  border: 2px solid red;
+  min-width: 70%;
 }
 
 .errorMessage {
@@ -13,4 +25,29 @@
 .labelTag {
   color: #323232;
   font-weight: 16px;
+  // display: inline;
+}
+
+.fieldWrapperName {
+  flex: auto;
+  // border: 2px purple solid;
+  padding: 5px;
+  display: inline-flexbox;
+}
+
+.fieldWrapper {
+  flex: auto;
+  // border: 2px purple solid;
+  padding: 5px;
+}
+
+.headerPhoto {
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.formField {
+  border: 2px #bdbdbd solid;
+  border-radius: 5px;
+  height: 18px;
 }

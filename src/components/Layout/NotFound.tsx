@@ -1,3 +1,6 @@
+// Copyright 2022 Ryan Diaz - All rights reserved
+// generic not-found page
+
 import React, { Component } from "react";
 
 class NotFound extends Component {

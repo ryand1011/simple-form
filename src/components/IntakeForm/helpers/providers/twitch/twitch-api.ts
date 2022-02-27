@@ -1,11 +1,11 @@
 // Copyright 2022 Ryan Diaz - All rights reserved
-// validators for specific providers
+// validator for twitch
 
 import { AccountValidator } from "../../account-validation-facade";
 
 // import axios from "axios";
 
-// interface for api response 
+// interface for api response - TODO: lookup model of response
 // interface TwitchAPIResponse {
 //
 // }
@@ -26,8 +26,8 @@ const doesTwitchAccountExistAPICall = async (twitchUsername: string): Promise<bo
     // console.log(JSON.stringify(data, null, 4));
     // console.log('response status is: ', status);
 
-    // placeholder
-    if(twitchUsername === "abcd") {
+    // placeholder - use response validation and custom twitch logic
+    if(twitchUsername === "twitch") {
         // then the account DOES exist
         // console.log("twitch account DOES exist");
         return new Promise(resolve => resolve(true));

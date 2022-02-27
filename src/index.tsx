@@ -1,4 +1,5 @@
 // Copyright 2022 Ryan Diaz - All rights reserved
+// entry point
 
 import React from "react";
 import ReactDOM from "react-dom";
